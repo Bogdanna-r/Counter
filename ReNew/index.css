@@ -1,0 +1,44 @@
+
+
+body{
+  margin: auto;
+  margin-top: -5;
+}
+.container{
+  display: inline-block;
+color: aliceblue;
+width: 100%;
+height: 500px;
+padding: 0;
+}
+img{
+  z-index: -1;
+  position: absolute;
+  background-image: url("photographer.jpg"); 
+  background-color: #cccccc; 
+  height: 800px;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+.content{
+  text-align: center;
+  margin-top: 220px;
+  font-weight: bold;
+}
+.title{
+  font-size: 62px;
+}
+#save-el{
+  font-size: 20px;
+}
+button{
+  font-size: 20px;
+  border-radius: 30%; 
+  margin-right: 20px;
+  background-color: aqua;
+}
+#increment-btn{
+  color: aliceblue;
+  background-color: red;
+}
